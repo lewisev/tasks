@@ -1,6 +1,10 @@
 import React from "react";
 
 import "./App.css";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChangeType } from "./components/ChangeType";
 import { Counter } from "./components/Counter";
 import { CycleHoliday } from "./components/CycleHoliday";
@@ -14,6 +18,14 @@ function App(): JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
             </header>
+            <hr></hr>
+            <DoubleHalf></DoubleHalf>
+            <hr></hr>
+            <ChooseTeam></ChooseTeam>
+            <hr></hr>
+            <ColoredBox></ColoredBox>
+            <hr></hr>
+            <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
             <hr />
